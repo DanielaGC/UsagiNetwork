@@ -1,0 +1,8 @@
+name: UsagiChat
+version: 1.0-SNAPSHOT
+main: me.danielagc.usagichat.UsagiLauncher
+commands:
+  chatclear:
+    aliases: [limparchat]
+  fly:
+    aliases: [voar]
