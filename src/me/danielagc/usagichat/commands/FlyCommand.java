@@ -14,7 +14,7 @@ public class FlyCommand extends PluginCommand {
             p.setAllowFlight(true);
             p.sendMessage("§7[§6UsagiFly§7]: Seu fly foi ativado, agora você poderá voar");
         } else {
-            p.setAllowFlight(true);
+            p.setAllowFlight(false);
             p.sendMessage("§7[§6UsagiFly§7]: Seu fly foi desativado, agora não você poderá voar");
         }
     }
