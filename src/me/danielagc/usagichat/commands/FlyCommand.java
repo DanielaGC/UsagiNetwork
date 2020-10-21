@@ -4,7 +4,7 @@ import com.richaard5.kotlindezoas.utils.commands.PluginCommand;
 import org.bukkit.entity.Player;
 
 public class FlyCommand extends PluginCommand {
-    FlyCommand () {
+    public FlyCommand() {
         super(new String[] {"fly", "voar"}, "usagichat.fly");
     }
 
