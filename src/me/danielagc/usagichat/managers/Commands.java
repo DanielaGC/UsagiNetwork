@@ -1,6 +1,5 @@
 package me.danielagc.usagichat.managers;
 
-import me.danielagc.usagichat.commands.*;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -14,8 +13,6 @@ public class Commands implements CommandExecutor {
         }
 
         Player p = (Player)sender;
-        ClearCommand.chatclear(p);
-        FlyCommand.fly(p);
 
         return false;
     }
