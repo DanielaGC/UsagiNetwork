@@ -3,7 +3,3 @@ version: 1.0-SNAPSHOT
 main: me.danielagc.usagichat.UsagiLauncher
 depend: [KotlinDeZoas]
 commands:
-  chatclear:
-    aliases: [limparchat]
-  fly:
-    aliases: [voar]
