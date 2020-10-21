@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UsagiNetwork">
+    <output-path>$PROJECT_DIR$/../../Plugins/</output-path>
+    <root id="archive" name="UsagiNetwork.jar">
+      <element id="module-output" name="UsagiNetwork" />
+    </root>
+  </artifact>
+</component>

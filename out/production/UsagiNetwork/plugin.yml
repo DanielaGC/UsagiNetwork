@@ -1,0 +1,5 @@
+name: UsagiNetwork
+version: 1.0-SNAPSHOT
+main: me.danielagc.usaginetwork.UsagiLauncher
+depend: [KotlinDeZoas]
+commands:
