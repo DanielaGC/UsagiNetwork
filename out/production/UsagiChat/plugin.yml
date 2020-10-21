@@ -1,4 +1,4 @@
-name: UsagiChat
+name: UsagiNetwork
 version: 1.0-SNAPSHOT
 main: me.danielagc.usagichat.UsagiLauncher
 depend: [KotlinDeZoas]

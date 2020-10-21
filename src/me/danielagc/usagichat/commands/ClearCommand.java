@@ -14,7 +14,7 @@ public class ClearCommand extends PluginCommand {
             for (int i = 1; i < 100; i++) {
                 p.sendMessage(" ");
             }
-            p.sendMessage("§7[§6§lUsagi§fłNetwork§7]: " + player.getDisplayName() + " fez uma limpeza no chat");
+            p.sendMessage("§7[§6§lUsagi§f§lNetwork§7]: " + player.getDisplayName() + " fez uma limpeza no chat");
         }
     }
 }
