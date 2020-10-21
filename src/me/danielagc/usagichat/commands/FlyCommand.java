@@ -10,11 +10,11 @@ public class FlyCommand extends PluginCommand {
 
     @Override
     public void execute(Player p, String[] args) {
-        if (!p.isFlying()) {
-            p.setFlying(true);
+        if (!p.getAllowFlight()) {
+            p.setAllowFlight(true);
             p.sendMessage("§7[§6UsagiFly§7]: Seu fly foi ativado, agora você poderá voar");
         } else {
-            p.setFlying(false);
+            p.setAllowFlight(true);
             p.sendMessage("§7[§6UsagiFly§7]: Seu fly foi desativado, agora não você poderá voar");
         }
     }

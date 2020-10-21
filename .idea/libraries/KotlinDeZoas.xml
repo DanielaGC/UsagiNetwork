@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="KotlinDeZoas">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../KotlinDeZoas/out/KotlinDeZoas_jar/KotlinDeZoas.jar!/" />
+      <root url="jar://$USER_HOME$/Plugins/KotlinDeZoas.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
