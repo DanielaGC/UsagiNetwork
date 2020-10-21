@@ -1,6 +1,6 @@
 package me.danielagc.usagichat;
 
-import me.danielagc.usagichat.managers.Commands;
+import me.danielagc.usagichat.commands.ClearCommand;
 import me.danielagc.usagichat.managers.Events;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
@@ -13,22 +13,16 @@ public class UsagiLauncher extends KotlinPlugin {
     public void onEnable() {
         plugin = this;
         Bukkit.getConsoleSender().sendMessage("§2[UsagiChat]: §fUsagiChat has been successfully started");
-        registerCommands();
-        registerEvents();
+        registerCommands(
+                new ClearCommand()
+        );
+        registerEvents(
+                new Events()
+        );
     }
 
     @Override
     public void onDisable() {
         Bukkit.getConsoleSender().sendMessage("§4[UsagiChat]: $fUsagiChat has been successfully disabled");
-    }
-
-    public void registerCommands() {
-        getCommand("chatclear").setExecutor(new Commands());
-        getCommand("fly").setExecutor(new Commands());
-    }
-
-    public void registerEvents() {
-        PluginManager pm = Bukkit.getPluginManager();
-        pm.registerEvents(new Events(), this);
     }
 }

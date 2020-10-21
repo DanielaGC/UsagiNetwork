@@ -4,7 +4,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
 public class ClearCommand extends PluginCommand {
-    ClearCommand () {
+    public ClearCommand() {
         super(new String[] { "clearchat", "limparchat" }, null);
     }
 
