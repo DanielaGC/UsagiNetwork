@@ -1,4 +1,4 @@
-package me.danielagc.usagichat.commands;
+package me.danielagc.usaginetwork.commands;
 
 import com.richaard5.kotlindezoas.utils.commands.PluginCommand;
 import org.bukkit.entity.Player;

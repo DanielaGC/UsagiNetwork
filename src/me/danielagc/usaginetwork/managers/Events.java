@@ -1,4 +1,4 @@
-package me.danielagc.usagichat.managers;
+package me.danielagc.usaginetwork.managers;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

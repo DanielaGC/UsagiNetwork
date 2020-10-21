@@ -1,8 +1,8 @@
-package me.danielagc.usagichat;
+package me.danielagc.usaginetwork;
 
 import com.richaard5.kotlindezoas.utils.KotlinPlugin;
-import me.danielagc.usagichat.commands.*;
-import me.danielagc.usagichat.managers.Events;
+import me.danielagc.usaginetwork.commands.*;
+import me.danielagc.usaginetwork.managers.Events;
 import org.bukkit.Bukkit;
 
 public class UsagiLauncher extends KotlinPlugin {
