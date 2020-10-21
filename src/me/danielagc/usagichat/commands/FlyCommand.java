@@ -5,7 +5,7 @@ import org.bukkit.entity.Player;
 
 public class FlyCommand extends PluginCommand {
     public FlyCommand() {
-        super(new String[] {"fly", "voar"}, "usagichat.fly");
+        super(new String[] {"fly", "voar"}, null);
     }
 
     @Override
